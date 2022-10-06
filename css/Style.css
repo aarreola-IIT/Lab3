@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #333333;
+}
+
+p, h1, ol, label, input, #content {
+    text-align: center; /* Align form elements to the center */
+    margin: 15px;
+}
+
+form {
+    background-color: #888888;
+    display: inline-block;
+}
+
+input {
+    box-sizing: border-box; /* Mandatory property */
+    width: 80%; /* Sizing of input areas + buttons */
+}
+
+#age-verification {
+    box-sizing: border-box;
+    width: 10%;
+}
+@media screen and (min-width: 768px){
+    #container {
+     float: left;
+     clear: right;
+     margin: 3% auto 0 auto;
+     width: 50%;
+    }
+   
+    .fontsize {
+     font-size: 1em;
+    }
+   
+    input {
+     width: 60%;
+    }
+   
+    #submit {
+     width: 55%;
+     font-size: 0.9em;
+    }
+   }
+   
+   @media screen and (min-width: 940px) {
+    #container {
+     float: left;
+     margin: 3%;
+     width: 40%;
+    }
+   
+    .fontsize {
+     font-size: 1.33em;
+    }
+   
+    input {
+     width: 50%;
+    }
+   
+    #submit {
+     width: 60%;
+     font-size: 0.95em;
+    }
+   }
